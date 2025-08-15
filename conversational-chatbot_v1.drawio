@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.1.0">
+  <diagram name="Page-1" id="1TMSNSDuA002hNt8oU8h">
+    <mxGraphModel dx="1454" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-2" value="User Interface&#xa;(React, Swift, Kotlin, Electron)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="371" y="20" width="222" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-3" value="Conversation Orchestrator&#xa;(Python/Go Backend)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="690" y="20" width="203" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-4" value="GPT Model (GPT-4o/GPT-5)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="20" width="219" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-5" value="Memory/Context Manager&#xa;(Session + Vector DB)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="1314" y="20" width="201" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-6" value="Knowledge Access Layer&#xa;(Embeddings + Vector DB)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="20" width="204" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-7" value="Action Layer (Plugins/APIs)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="1819" y="20" width="207" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-8" value="Moderation Layer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="2076" y="20" width="150" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-9" value="Output Renderer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="2276" y="20" width="150" height="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-10" value="Enter message (e.g., &quot;Where is my package?&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-1" target="oEJGcsuivMLIAj-WWP-H-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-11" value="Send message + session metadata" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-2" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-12" value="Pre-check input for policy violations" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1479" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-13" value="Input safe" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-8" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1482" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-14" value="Retrieve recent conversation context" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1111" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-15" value="Pass system prompt + user input + context" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="981" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-16" value="Determine if tools or RAG needed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-4" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-17" value="(If needed) Retrieve relevant knowledge" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1237" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-18" value="Return documents/snippets" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-6" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-19" value="(If needed) Call API or plugin for live data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-20" value="Return structured data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-7" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1368" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-21" value="Pass all gathered info for final generation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="981" y="651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-22" value="Generate conversational response" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-4" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-23" value="Post-check output for safety" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1479" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-24" value="Output safe" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-8" target="oEJGcsuivMLIAj-WWP-H-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1482" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-25" value="Store conversation turn + embeddings" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1111" y="843" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-26" value="Send final response" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-3" target="oEJGcsuivMLIAj-WWP-H-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1579" y="891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEJGcsuivMLIAj-WWP-H-27" value="Display in chat UI" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="oEJGcsuivMLIAj-WWP-H-9" target="oEJGcsuivMLIAj-WWP-H-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1234" y="939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
