@@ -1,0 +1,41 @@
+flowchart TD
+    %% UI Layer
+    UI[User Interface<br><small>React (Web), Swift (iOS), Kotlin (Android), Electron (Desktop)</small>]:::layer
+
+    %% Orchestration Layer
+    ORCH[Conversation Orchestrator<br><small>Python/Go backend, prompt assembly, routing</small>]:::layer
+
+    %% NLU Layer
+    NLU[Natural Language Understanding<br><small>GPT model for intent/entity extraction<br>+ prompt engineering</small>]:::layer
+
+    %% Memory Layer
+    MEM[Memory / Context Manager<br><small>Short-term session memory<br>Long-term vector DB (Pinecone-like)</small>]:::layer
+
+    %% Knowledge Access Layer
+    RAG[Knowledge Access (RAG)<br><small>text-embedding-ada-002, internal vector DB,<br>web search plugin</small>]:::layer
+
+    %% Action Layer
+    TOOL[Action Layer (Tools / Plugins)<br><small>Code Interpreter, APIs, file handling, live data fetch</small>]:::layer
+
+    %% NLG Layer
+    NLG[Natural Language Generation<br><small>GPT-4o / GPT-5 response generation</small>]:::layer
+
+    %% Moderation Layer
+    MOD[Moderation Layer<br><small>text-moderation-latest, rule-based filters</small>]:::layer
+
+    %% Output Layer
+    OUT[Output Renderer<br><small>Formatted chat response back to UI</small>]:::layer
+
+    %% Flow connections
+    UI --> ORCH
+    ORCH --> NLU
+    NLU --> MEM
+    MEM --> RAG
+    RAG --> TOOL
+    TOOL --> NLG
+    NLG --> MOD
+    MOD --> OUT
+    OUT --> UI
+
+    %% Styles
+    classDef layer fill:#f5f5f5,stroke:#444,stroke-width:1px,rx:6px,ry:6px;
